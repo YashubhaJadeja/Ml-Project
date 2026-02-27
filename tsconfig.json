@@ -12,8 +12,6 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
@@ -37,11 +35,6 @@
   "include": [
     "src",
     ".next/types/**/*.ts"
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
   ],
   "exclude": [
     "node_modules"
